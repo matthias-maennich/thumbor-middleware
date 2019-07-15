@@ -1,6 +1,6 @@
 # About
 
-This is a extract of a POC to provide an API for smart image cropping and resizing. The idea was to integrate a middleware service into a rails application which proxies image requests to a [thumbor](https://github.com/thumbor/thumbor) service that accepts only whitelisted formats and options. After running into multiple problems this idea was abondoned. A middleware for this is an especially bad idea if requested images are also coming from the same rails application - this quickly results in a deadlock.  
+This is a extract of a POC to provide an API for smart image cropping and resizing. The idea was to integrate a middleware service into a rails application which proxies image requests to a [thumbor](https://github.com/thumbor/thumbor) service that accepts only whitelisted formats and options. After running into multiple problems this idea was abandoned. A middleware for this is an especially bad idea if requested images are also coming from the same rails application - this quickly results in a deadlock.  
 So this project is more of a post mortem/ reference for my personal use.
 
 
